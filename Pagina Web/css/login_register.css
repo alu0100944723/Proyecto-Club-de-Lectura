@@ -1,0 +1,186 @@
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  color:black;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: ">\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+body{
+	background: #fcf3ec;
+	text-align: center;
+	background-image: url(../imagenes/cabecera4.jpg);
+}
+
+img {
+	 width: 30px;
+	 height: 30px;
+}
+
+
+a {
+	color: #BB6E0D;
+	font-weight: 400;
+}
+
+span {
+	font-weight: 300;
+	color: #BB6E0D;
+}
+
+button{
+	border: solid;
+	background: #3D82C3;
+	color: #fff;
+	padding: 7px 12px;
+	border-radius: 1px;
+	float: right;
+	cursor: pointer;
+}
+
+footer{
+	background-color: #e6ccb3;
+	margin-top:50px;
+    width:100%;
+    height:200px;
+}
+
+.div_nav{
+	background-color: white;
+	color: black;
+}
+
+.div_fondo{
+	background-image: url(../imagenes/book.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+
+}
+
+.div_central{
+    opacity: 0.8;
+
+}
+
+
+.h1_index {
+
+	color:white;
+	-webkit-text-stroke: 2px black;
+	font-size: 100px;
+
+}
+
+.li_cab {
+	color:black;
+	font-size: 30px;
+}
+
+.fondo_cab {
+	margin-top: 0px;
+	background: url(../imagenes/cabecera4.jpg);
+	color:black;
+}
+
+.box {
+	margin: 300px auto 0;
+}
+
+.box {
+	margin: 300px auto 0;
+}
+
+.error {
+	margin: 1px auto 0;
+	border: 1px solid #777;
+	padding: 3px;
+	color: #fff;
+	text-align: center;
+	width: 650px;
+	background: #BB6E0D;
+}
+
+.regtext {
+	font-size: 15px;
+	margin-top: 25px;
+	color: ##3D82C3;
+}
+
+.container {
+	padding: 40px 20px 40px 15px;
+	font-weight: 400;
+	overflow: hidden;
+	width: 350px;
+	height: auto;
+	background: #fff;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	box-shadow: 0 1px 3px rgba(0,0,0,.13);
+}
+
+.container h1 {
+	color: #000000;
+	text-align: center;
+	font-weight: 500;
+  font-size: 50px;
+	margin-top: 13px;
+}
+
+.container label {
+	color: #000000;
+	font-size: 20px;
+}
+
+.container form .input,.container input[type=text],.container input[type=password],.container input[type=email] {
+	background: #fbfbfb;
+	font-size: 24px;
+	line-height: 1;
+	width: 100%;
+	padding: 3px;
+	margin: 0 6px 5px 0;
+	outline: none;
+	border: 1px solid #d9d9d9;
+}
+
+.container form .input:focus {
+	border: 1px solid #BB6E0D;
+	-webkit-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+	-moz-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+	box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+}
+.nav-wrapper {
+	background-color: #e6ccb3;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+	border:none;
+
+}
