@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Club de Lectura</title>
+
+  <link rel="icon" href="imagenes/mifavicon.ico">
+
+  <script src="javascript/index.js"></script>
+
+  <link rel="stylesheet" href="css/index.css">
+ 
+  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- Para iconos de materialize -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+
+
+<body >
+
+<!-- Navbar goes here -->
+<header class="fondo_cab">
+  <h1 class="h1_index"> Club de Lectura </h1>
+    <nav>
+     <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo right"><img id="icon" src="imagenes/mifavicon.ico"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text text-darken-4">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+       <li><a class="li_cab" href="!#"></a></li>
+        <li><a class="li_cab" href="index.html">Inicio</a></li>
+        <li><a class="li_cab" href="form.html">Libros</a></li>
+        <li><a class="li_cab" href="news.html">Novedades</a></li>
+        <li><a class="li_cab" href="contact.html">Contacto</a></li>
+        <li><a class="li_cab" href="FAQ.html">FAQ</a></li>
+        <li><p class="li_cab" id="usuario"></p></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+     <li><a class="li_cab" href="!#"></a></li>
+        <li><a class="li_cab" href="index.html">Inicio</a></li>
+        <li><a class="li_cab" href="form.html">Libros</a></li>
+        <li><a class="li_cab" href="news.html">Novedades</a></li>
+        <li><a class="li_cab" href="contact.html">Contacto</a></li>
+        <li><a class="li_cab" href="FAQ.html">FAQ</a></li>
+        <li><p class="li_cab" id="usuario"></p></li>
+  </ul>
+         
+</nav>
+</header>
+
+    <!-- Page Layout here -->
+    
+    <div class=" div_fondo ">
+
+    <div class="div_fondo row">
+    	<ul class="breadcrumb">
+        <li>Inicio</li>
+    </ul>
+    <div class="col s0 m2 l3 div_trans">
+    </div>
+    <div class="col s12 m8 l6 div_central" tabindex="0"> <!-- Note that "m8 l9" was added -->
+      <!-- Teal page content
+
+            This content will be:
+        9-columns-wide on large screens,
+        8-columns-wide on medium screens,
+        12-columns-wide on small screens  -->
+
+        <h2 class="h2_index" tabindex="0"> ¡Bienvenidos a nuestra página web! </h2>
+<p class="p_index" tabindex="0">
+  Aquí tendrás tu <strong>propia biblioteca</strong>,<br/> gracias a que podrás ordenar tus libros en listas,<br/> así como encontrar autores e información sobre reuniones<br/> de lecturas, firmas de libros y... ¡mucho más!<br/>
+  ¿A qué esperas para unirte?</p>
+
+<!-- Esta frase de abajo la puse porque las etiquetas dfn y abbr aparecen en las diapositivas -->
+
+<form class="form_index" action="register.html" method="get">
+<button aria-label="Registrarse" class="button">Registrarse
+<div class="button__horizontal"></div>
+<div class="button__vertical"></div>
+</button>
+</form>
+
+<form class="form_index" action="login.html" method="get">
+<button aria-label="Iniciar sesion" class="button">Iniciar sesión
+<div class="button__horizontal"></div>
+<div class="button__vertical"></div>
+</button>
+</form>
+<dfn>
+<h3 tabindex="0">Porque...</h3>
+ “Carecer de libros propios es el colmo de la miseria  "</dfn>
+<strong><abbr  tabindex="0" tittle = "Benjamin Franklin">Benjamin F.</abbr></strong>
+
+    </div>
+    <div class="col s0 m2 l3  div_trans">
+    </div>
+  </div>
+
+
+    <div class="row div_fondo">
+      
+      <div class="col s0 m2 l3 div_trans">
+      </div>
+      <div class="col s12 m8 l6 div_central" tabindex="0"> <!-- Note that "m4 l3" was added -->
+        <!-- Grey navigation panel
+
+
+          <!-- Eventos-->
+        <h2 tabindex="0" >Proximos eventos</h2>
+          <table tabindex="0">
+            <tr>
+              <th>Proximos eventos</th>
+              <th>Fecha</th>
+              <th>Asistiré</th>
+            </tr>
+            <tr>
+              <td>Feria del libro Madrid</td>
+              <td>31 Mayo-16 Junio</td>
+              <td>
+                <form>
+                  <p>
+                    <label>
+                      <input type="checkbox"/>
+                      <span role="checkbox" aria-checked="false" onclick="changeCheckbox()" onKeyPress="changeCheckbox()" aria-labelledby="chk1-label">Si</span>
+                    </label>
+                  </p>
+                  <p>
+                    <label>
+                      <input type="checkbox"/>
+                      <span role="checkbox" aria-checked="false" onclick="changeCheckbox()" onKeyPress="changeCheckbox()" aria-labelledby="chk1-label">No</span>
+                    </label>
+                  </p>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <td>Sant Jordi</td>
+              <td>23 Abril</td>
+              <td>
+                <form>
+                  <p>
+                    <label>
+                      <input type="checkbox"/>
+                      <span role="checkbox" aria-checked="false" onclick="changeCheckbox()" onKeyPress="changeCheckbox()" aria-labelledby="chk1-label">Si</span>
+                    </label>
+                  </p>
+                  <p>
+                    <label>
+                      <input type="checkbox"/>
+                      <span role="checkbox" aria-checked="false" onclick="changeCheckbox()" onKeyPress="changeCheckbox()" aria-labelledby="chk1-label">No</span>
+                    </label>
+                  </p>
+                </form>
+              </td>
+            </tr>
+        </table>
+
+          <form class="form_index" action="index.html" method="get">
+            <button aria-label="Confirmar y enviar"><a class="waves-effect waves-teal btn-flat" class="boton_conf">
+            <i class="material-icons">radio_button_checked</i> Confirmar</a></button>
+          </form>
+
+        </div>
+
+        <div class="col s0 m2 l3 div_trans">
+        </div>
+
+    </div>
+  
+    <footer tabindex="0">
+      Información de contacto:
+      <address>Avenida La Trinidad. Número 14. Club de Lectura.<br>Número de teléfono: 922340729<br></address>
+      Página web hecha por: Carmen Castro González, Carolina Candelaria Álvarez Martín y María Candelaria Fariña Rodríguez.<br>
+        <a href="FAQ.html">FAQ</a><br>
+        <a href="mapa_web.html">Mapa Web</a><br>
+        <a href="legal_advise.html">Aviso Legal</a><br>
+       <h3>&copy&nbspCopyright UYA - 2019</h3><br><br>
+    </footer>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+  <script src="/__/firebase/5.10.1/firebase-app.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="/__/firebase/5.10.1/firebase-auth.js"></script>
+  <script src="/__/firebase/5.10.1/firebase-database.js"></script>
+  <!-- Load the Firebase SDKs before loading this file -->
+<script src="/__/firebase/init.js"></script>
+  </body>
+</html>

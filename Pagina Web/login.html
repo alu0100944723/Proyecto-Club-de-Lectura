@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Iniciar Sesión</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/login_register.css">
+      <link rel="icon" href="imagenes/mifavicon.ico">
+      <script src="javascript/login_register.js"></script>
+
+      <!-- Compiled and minified CSS -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	  <!-- Compiled and minified JavaScript -->
+	   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	     <!-- Para iconos de materialize -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+   <header class="fondo_cab">
+    <h1 class="h1_index"> Club de Lectura </h1>
+    <nav>
+     <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo right"><img id="icon" src="imagenes/mifavicon.ico"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text text-darken-4">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+       <li><a class="li_cab" href="!#"></a></li>
+        <li><a class="li_cab" href="index.html">Inicio</a></li>
+        <li><a class="li_cab" href="form.html">Libros</a></li>
+        <li><a class="li_cab" href="news.html">Novedades</a></li>
+        <li><a class="li_cab" href="contact.html">Contacto</a></li>
+        <li><a class="li_cab" href="FAQ.html">FAQ</a></li>
+        <li><p id="usuario"></p></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+     <li><a class="li_cab" href="!#"></a></li>
+        <li><a class="li_cab" href="index.html">Inicio</a></li>
+        <li><a class="li_cab" href="form.html">Libros</a></li>
+        <li><a class="li_cab" href="news.html">Novedades</a></li>
+        <li><a class="li_cab" href="contact.html">Contacto</a></li>
+        <li><a class="li_cab" href="FAQ.html">FAQ</a></li>
+        <li><p id="usuario"></p></li>
+  </ul>
+         
+</nav>
+</header>
+<div class="div_fondo">
+	<div class="container box div_central">
+		<ul class="breadcrumb">
+        <li><a href="index.html">Inicio</a></li>
+        <li>Inicio de sesión</li>
+    </ul>
+    <p id="Aviso2"></p>
+		<h1>Iniciar Sesión</h1>
+		<form id="Inicio" name="Inicio" method="post">
+
+		<label for="email_usuario" >Correo electrónico<br/></label>
+			<input type="email" name="email_usuario" id="email_usuario" aria-label="Introduce tu correo" placeholder="Introduce tu correo" aria-live="polite" aria-labelledby="email_usuario" aria-required="true" aria-invalid="false" aria-describedby="Aviso" required><br/><br/>
+		<label for="contraseña_usuario">Contraseña<br /></label>
+			<input id="contraseña_usuario" type="password" aria-label="Introduce tu contraseña" aria-live="polite" placeholder="Contraseña"  name="contraseña_usuario"aria-labelledby="contraseña_usuario" aria-required="true" aria-invalid="false" aria-describedby="Aviso"  required><br/><br/>
+	
+	
+<button id="button" type="button" onclick="signin()" >Entrar</button>
+
+<p class="regtext">¿No estás registrado? <a href="register.html" >Registrate Aquí</a></p>
+</form>
+</div>
+ <footer tabindex="0">
+      Información de contacto:
+      <address>Avenida La Trinidad. Número 14. Club de Lectura.<br>Número de teléfono: 922340729<br></address>
+      Página web hecha por: Carmen Castro González, Carolina Candelaria Álvarez Martín y María Candelaria Fariña Rodríguez.<br>
+        <a href="FAQ.html">FAQ</a><br>
+        <a href="mapa_web.html">Mapa Web</a><br>
+        <a href="legal_advise.html">Aviso Legal</a><br>
+       <h3>&copy&nbspCopyright UYA - 2019</h3><br><br>
+    </footer>
+  </div>
+  
+
+  <script src="/__/firebase/5.10.1/firebase-app.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="/__/firebase/5.10.1/firebase-auth.js"></script>
+  <script src="/__/firebase/5.10.1/firebase-database.js"></script>
+  <!-- Load the Firebase SDKs before loading this file -->
+<script src="/__/firebase/init.js"></script>
+</body>
+</html>
